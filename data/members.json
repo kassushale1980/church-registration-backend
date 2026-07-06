@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "firstName": "Nathan",
+    "lastName": "Kassahun",
+    "phone": "2403867913",
+    "email": "kassushale@gmail.com",
+    "gender": "Male / ወንድ",
+    "grade": "Grade 3",
+    "parentName": "kassahun"
+  },
+  {
+    "id": 2,
+    "firstName": "Nathan",
+    "lastName": "kassahun",
+    "phone": "2403867913",
+    "email": "kassushale@gmail.com",
+    "gender": "Male / ወንድ",
+    "grade": "Grade 3",
+    "parentName": "kassahun"
+  },
+  {
+    "id": 3,
+    "firstName": "Nathan",
+    "lastName": "Kassahun",
+    "phone": "2403867913",
+    "email": "kassushale@gmail.com",
+    "gender": "Male / ወንድ",
+    "grade": "Grade 3",
+    "parentName": "kassahun"
+  },
+  {
+    "id": 4,
+    "firstName": "Nathan",
+    "lastName": "Kassahun",
+    "phone": "2403867913",
+    "email": "kassushale@gmail.com",
+    "gender": "Male / ወንድ",
+    "grade": "Grade 3",
+    "parentName": "kassahun"
+  },
+  {
+    "id": 5,
+    "firstName": "Rahel",
+    "lastName": "kassahun",
+    "phone": "2403867913",
+    "email": "kassushale@gmail.com",
+    "gender": "Female / ሴት",
+    "grade": "Grade 1",
+    "parentName": "kassahun"
+  },
+  {
+    "id": 6,
+    "firstName": "Ruth",
+    "lastName": "Kassahun",
+    "phone": "2403867913",
+    "email": "kassushale@yahoo.com",
+    "gender": "Female / ሴት",
+    "grade": "Grade 1",
+    "parentName": "kassahun"
+  },
+  {
+    "id": 7,
+    "firstName": "Nathan",
+    "lastName": "Kassahun",
+    "phone": "2403867913",
+    "email": "kassushale@gmail.com",
+    "gender": "Male / ወንድ",
+    "grade": "Grade 3",
+    "parentName": "kassahun"
+  }
+]
