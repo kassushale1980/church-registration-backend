@@ -52,11 +52,15 @@ export const createMember = async (req, res) => {
     writeMembers(members);
 
     // 📧 SEND EMAIL
-    await sendEmail(
-      req.body.email,
-      "Sunday School Registration Successful",
-      `Hello ${req.body.firstName}, your registration was successful.`
-    );
+ try {
+  await sendEmail(
+    member.email,
+    "Sunday School Registration Successful",
+    "Your registration has been received."
+  );
+} catch (error) {
+  console.log("Email error:", error.message);
+}
 
     res.status(201).json({
       message: "Member created successfully",
