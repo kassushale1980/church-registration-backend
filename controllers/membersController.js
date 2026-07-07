@@ -49,6 +49,8 @@ export const getMemberById = (req, res) => {
 // CREATE member + EMAIL
 export const createMember = async (req, res) => {
 
+  console.log("INCOMING DATA:", req.body);
+
   try {
 
     const members = readMembers();
@@ -115,24 +117,13 @@ Sunday School Ministry`
 
 
   } catch (error) {
+  console.error("CREATE MEMBER ERROR:", error);
 
-
-    console.error(
-      "Create member error:",
-      error
-    );
-
-
-    res.status(500).json({
-
-      success: false,
-
-      message: "Server error",
-
-    });
-
-
-  }
+  res.status(500).json({
+    success: false,
+    message: error.message,
+  });
+}
 
 };
 
