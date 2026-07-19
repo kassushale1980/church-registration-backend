@@ -18,6 +18,11 @@ app.get("/", (req, res) => {
   res.send("✅ Church Registration Backend is Running");
 });
 
+app.get("/api/test", (req, res) => {
+  res.json({ message: "API is working" });
+});
+
+
 app.use("/api/members", memberRoutes);
 app.use("/api/auth", authRoutes);
 
